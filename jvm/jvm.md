@@ -30,3 +30,42 @@ programme counter register 程序计数器
 ![image-20220814004202857](photo/image-20220814004202857.png)
 
 ![image-20220814004532257](photo/image-20220814004532257.png)
+
+![image-20220814140645775](photo/image-20220814140645775.png)
+
+![image-20220814140730901](photo/image-20220814140730901.png)
+
+![image-20220814141002412](photo/image-20220814141002412.png)
+
+虚拟机栈是线程私有的，但堆是线程共享的，堆中的对象都要考虑线程安全的问题，另外，堆具有垃圾回收机制，通过new关键字，创建的对象都会使用堆内存
+
+栈 -Xss 堆 -Xmx
+
+jmap -heap xxxx
+
+jvitualvm
+
+![image-20220814143703139](photo/image-20220814143703139.png)
+
+![image-20220814144110855](photo/image-20220814144110855.png)
+
+字节码技术
+
+- spring
+- mybatis
+
+![image-20220814144405379](photo/image-20220814144405379.png)
+
+javap -v xxx.class
+
+![image-20220814180938129](photo/image-20220814180938129.png)
+
+![image-20220814181614219](photo/image-20220814181614219.png)
+
+![image-20220814181837740](photo/image-20220814181837740.png)
+
+![image-20220814190054299](photo/image-20220814190054299.png)
+
+![image-20220814222331422](photo/image-20220814222331422.png)
+
+![image-20220814222422779](photo/image-20220814222422779.png)
