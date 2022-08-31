@@ -1,2 +1,2 @@
-# Java_Interview_Notebook
-Java面经
+# Java_Study_Note
+Java学习笔记
